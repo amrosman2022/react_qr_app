@@ -10,11 +10,11 @@ terraform {
 
 provider "launchdarkly" {
   version     = "~> 2.0"
-  access_token = "YOUR_API_TOKEN"
+  access_token = "sdk-5acffbcf-a717-43b3-a980-df613ca456f0"
 }
 
 resource "launchdarkly_feature_flag" "react_background_color" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactBackgroundColor"
   name        = "React Background Color"
 
@@ -47,7 +47,7 @@ resource "launchdarkly_feature_flag" "react_background_color" {
 }
 
 resource "launchdarkly_feature_flag" "react_qr_code" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactQRCode"
   name        = "React QR Code"
 
@@ -72,7 +72,7 @@ resource "launchdarkly_feature_flag" "react_qr_code" {
 }
 
 resource "launchdarkly_feature_flag" "parent_branding" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactParentBrand"
   name        = "React Parent Brand"
 
@@ -97,7 +97,7 @@ resource "launchdarkly_feature_flag" "parent_branding" {
 }
 
 resource "launchdarkly_feature_flag" "child_header" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactChildHeaderLogo"
   name        = "React Child Header Logo"
 
@@ -122,7 +122,7 @@ resource "launchdarkly_feature_flag" "child_header" {
 }
 
 resource "launchdarkly_feature_flag" "child_spinny" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactChildSpinnyLogo"
   name        = "React Child Spinny Logo"
 
@@ -147,7 +147,7 @@ resource "launchdarkly_feature_flag" "child_spinny" {
 }
 
 resource "launchdarkly_feature_flag" "child_toggle" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactChildToggle"
   name        = "React Child Toggle"
 
@@ -173,7 +173,7 @@ resource "launchdarkly_feature_flag" "child_toggle" {
 
 
 resource "launchdarkly_feature_flag" "customer_logo" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactCustomerLogo"
   name        = "Customer Logo"
 
@@ -199,7 +199,7 @@ resource "launchdarkly_feature_flag" "customer_logo" {
 
 
 resource "launchdarkly_feature_flag" "show_customer_logo" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactShowCustomerLogo"
   name        = "Show Customer Logo"
 
@@ -224,7 +224,7 @@ resource "launchdarkly_feature_flag" "show_customer_logo" {
 }
 
 resource "launchdarkly_feature_flag" "show_heart" {
-  project_key = "YOUR_PROJECT_KEY"
+  project_key = "623ba71aaa61030d7f6a8cea"
   key         = "reactShowHeart"
   name        = "Show Heart"
 
